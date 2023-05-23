@@ -1,7 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * 
+ * _binary_tree_height - Checks if a node is a leaf of a binary tree.
+ * @node: A pointer to the node to check.
+ *
+ * Return: If the node is a leaf, 1, otherwise, 0.
  */
 size_t _binary_tree_height(const binary_tree_t *tree)
 {
@@ -16,7 +19,11 @@ size_t _binary_tree_height(const binary_tree_t *tree)
 
 
 /**
- * 
+ * _binary_tree_balance - Returns the depth of a given
+ *         node in a binary tree.
+ * @tree: A pointer to the node to measure the depth of.
+ *
+ * Return: The depth of node.
  */
 int _binary_tree_balance(const binary_tree_t *tree)
 {
@@ -26,7 +33,10 @@ int _binary_tree_balance(const binary_tree_t *tree)
 }
 
 /**
- * 
+ * sub_tree_perfect - Returns a leaf of a binary tree.
+ * @tree: A pointer to the root node of the tree to find a leaf in.
+ *
+ * Return: A pointer to the first encountered leaf.
  */
 int sub_tree_perfect(const binary_tree_t *tree)
 {
@@ -40,7 +50,11 @@ int sub_tree_perfect(const binary_tree_t *tree)
 }
 
 /**
- * 
+ * binary_tree_is_perfect - Checks if a binary tree is perfect.
+ * @tree: A pointer to the root node of the tree to check.
+ *
+ * Return: If tree is NULL or not perfect, 0.
+ *         Otherwise, 1.
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
