@@ -253,4 +253,4 @@ Function Prototypes
 
 ## Authors :black_nib:
 
-* __Emmanuel Tofa__ [Uno36](https://github.com/Uno36/Binary-trees)
+* __Emmanuel Tofa__ [Uno36](https://github.com/Uno36/binary_trees)
